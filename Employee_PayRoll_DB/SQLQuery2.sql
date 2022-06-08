@@ -21,3 +21,6 @@ insert into employee_payroll values
 
 -------------UC4---------------
 select * from employee_payroll
+
+-------------UC5---------------
+select * from employee_payroll where name='Niraj';
