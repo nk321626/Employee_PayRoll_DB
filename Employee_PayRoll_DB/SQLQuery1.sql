@@ -11,3 +11,5 @@ update Payroll_Service set gender='F' where name in ('Urvi');
 -----------UC7------------------
 select SUM(salary) from Payroll_Service
 
+select MAX(salary) from Payroll_Service
+
