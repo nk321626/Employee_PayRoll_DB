@@ -24,3 +24,5 @@ select SUM(salary) from Payroll_Service group by gender
 -----------UC8----------------
 delete from Payroll_Service
 
+alter table payroll_Service add PhoneNo varchar(10)
+
