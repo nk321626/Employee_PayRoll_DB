@@ -26,3 +26,5 @@ delete from Payroll_Service
 
 alter table payroll_Service add PhoneNo varchar(10)
 
+update Payroll_Service set PhoneNo='7004670887'
+where id='14'
