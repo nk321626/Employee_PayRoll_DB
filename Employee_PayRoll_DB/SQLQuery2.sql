@@ -25,3 +25,6 @@ select * from employee_payroll
 -------------UC5---------------
 select * from employee_payroll where name='Niraj';
 select * from employee_payroll where start_date between '2020-01-1'and getdate();
+
+------------UC6----------------
+alter table employee_payroll add gender varchar(1)
