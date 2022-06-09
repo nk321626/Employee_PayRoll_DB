@@ -17,3 +17,7 @@ select MIN(salary) from Payroll_Service
 
 select AVG(salary) from Payroll_Service
 
+select gender from Payroll_Service group by gender;
+
+select SUM(salary) from Payroll_Service group by gender
+
