@@ -15,3 +15,5 @@ select MAX(salary) from Payroll_Service
 
 select MIN(salary) from Payroll_Service
 
+select AVG(salary) from Payroll_Service
+
