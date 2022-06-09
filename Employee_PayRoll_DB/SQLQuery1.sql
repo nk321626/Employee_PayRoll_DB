@@ -13,3 +13,5 @@ select SUM(salary) from Payroll_Service
 
 select MAX(salary) from Payroll_Service
 
+select MIN(salary) from Payroll_Service
+
