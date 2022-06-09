@@ -21,3 +21,6 @@ select gender from Payroll_Service group by gender;
 
 select SUM(salary) from Payroll_Service group by gender
 
+-----------UC8----------------
+delete from Payroll_Service
+
